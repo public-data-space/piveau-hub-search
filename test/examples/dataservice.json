@@ -1,0 +1,36 @@
+{
+  "licence": {
+    "description": "An example Licence to demonstrate the Mapping",
+    "la_url": "https://service.com/la_url",
+    "id": "example-licence",
+    "title": "Example Licence",
+    "resource": "https://service.com/licence"
+  },
+  "idName": null,
+  "endpoint_url": [
+    "https://service.com/endpoi2ntUrl"
+  ],
+  "translation_meta": null,
+  "description": {
+    "en": "An Example DataService to demonstrate the Mapping"
+  },
+  "endpoint_description": [
+    "https://service.com/endpointDescription"
+  ],
+  "id": "dataservice",
+  "datasets": [
+    {
+      "id": "dataset-id-1"
+    },
+    {
+      "id": "dataset-id-2"
+    }
+  ],
+  "title": {
+    "en": "Example DataService"
+  },
+  "access_right": {
+    "resource": "https://service.com/endpointUrl",
+    "label": "123label"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "host": "localhost",
+  "port": 9200,
+  "index": {
+    "dataset": {
+      "max_agg_size": 50,
+      "max_result_window": 1000000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/dataset_mapping.json",
+      "facets": [
+        {
+          "name": "country",
+          "title": "Countries",
+          "path": "country"
+        },
+        {
+          "name": "catalog",
+          "title": "Catalogues",
+          "path": "catalog"
+        },
+        {
+          "name": "categories",
+          "title": "Categories",
+          "path": "categories"
+        },
+        {
+          "name": "keywords",
+          "title": "Keywords",
+          "path": "keywords"
+        },
+        {
+          "name": "format",
+          "title": "Formats",
+          "path": "distributions.format"
+        },
+        {
+          "name": "licence",
+          "title": "Licences",
+          "path": "distributions.licence"
+        }
+      ]
+    },
+    "catalogue": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/catalogue_mapping.json",
+      "facets": [
+        {
+          "name": "country",
+          "title": "Countries",
+          "path": "country"
+        }
+      ],
+      "searchParams": [
+        {
+          "name": "temporal",
+          "field": "issued"
+        }
+      ]
+    },
+    "distribution": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/distribution_mapping.json",
+      "facets": [
+        {
+          "name": "format",
+          "title": "Formats",
+          "path": "format"
+        },
+        {
+          "name": "licence",
+          "title": "Licence",
+          "path": "licence"
+        }
+      ],
+      "searchParams": [
+      ]
+    },
+    "dataservice": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/dataservice_mapping.json",
+      "facets": [],
+      "searchParams": []
+    }
+  }
+}

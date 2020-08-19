@@ -1,0 +1,174 @@
+{
+  "success": true,
+  "result": {
+    "count": 2,
+    "results": [
+      {
+        "country": {
+          "title": "Germany",
+          "id": "de"
+        },
+        "keywords": null,
+        "has_versions": null,
+        "sources": null,
+        "catalog": {
+          "licence": null,
+          "country": {
+            "title": "Germany",
+            "id": "de"
+          },
+          "idName": "govdata",
+          "languages": [
+            "de"
+          ],
+          "description": {
+            "en": "Open Data Portal Germany"
+          },
+          "publisher": {
+            "name": "Freie und Hansestadt Hamburg",
+            "type": "Agent",
+            "email": "mailto:info@govdata.de"
+          },
+          "modified": "2019-04-25T15:05:22Z",
+          "id": "govdata",
+          "title": {
+            "de": "GovData"
+          },
+          "issued": "2019-11-29T12:22:24.020861Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "en",
+            "de"
+          ],
+          "details": {
+            "de": {
+              "issued": "2019-11-14T11:31:12Z",
+              "machine_translated": false
+            },
+            "en": {
+              "issued": "2019-11-14T11:31:12Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "de": "beispiel beschreibung 2",
+          "en": "example description 2"
+        },
+        "version_notes": null,
+        "title": {
+          "de": "beispiel title 2",
+          "en": "example title 2"
+        },
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "idName": null,
+        "modification_date": "2019-12-04T00:00:00Z",
+        "contact_points": null,
+        "id": "2",
+        "categories": null,
+        "spatial": null,
+        "temporal_coverages": null,
+        "is_version_of": null,
+        "languages": null,
+        "identifiers": null,
+        "documentations": null,
+        "landing_page": null,
+        "version": null,
+        "distributions": [],
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": null,
+        "provenances": null
+      },
+      {
+        "country": {
+          "title": "Germany",
+          "id": "de"
+        },
+        "keywords": null,
+        "has_versions": null,
+        "sources": null,
+        "catalog": {
+          "licence": null,
+          "country": {
+            "title": "Germany",
+            "id": "de"
+          },
+          "idName": "govdata",
+          "languages": [
+            "de"
+          ],
+          "description": {
+            "en": "Open Data Portal Germany"
+          },
+          "publisher": {
+            "name": "Freie und Hansestadt Hamburg",
+            "type": "Agent",
+            "email": "mailto:info@govdata.de"
+          },
+          "modified": "2019-04-25T15:05:22Z",
+          "id": "govdata",
+          "title": {
+            "de": "GovData"
+          },
+          "issued": "2019-11-29T12:22:24.020861Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "es",
+            "en"
+          ],
+          "details": {
+            "en": {
+              "issued": "2019-11-14T11:31:12Z",
+              "machine_translated": false
+            },
+            "es": {
+              "issued": "2019-11-14T11:31:12Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "en": "example description 1",
+          "es": "descripción de ejemplo 1"
+        },
+        "version_notes": null,
+        "title": {
+          "en": "example title 1",
+          "es": "título de ejemplo 1"
+        },
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "idName": null,
+        "modification_date": "2019-12-04T00:00:00Z",
+        "contact_points": null,
+        "id": "1",
+        "categories": null,
+        "spatial": null,
+        "temporal_coverages": null,
+        "is_version_of": null,
+        "languages": null,
+        "identifiers": null,
+        "documentations": null,
+        "landing_page": null,
+        "version": null,
+        "distributions": [],
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": null,
+        "provenances": null
+      }
+    ]
+  }
+}
